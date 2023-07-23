@@ -1,10 +1,8 @@
 import './App.css'
-
+import Home from './components/home/Home'
 function App() {
   return (
-    <>
-      <h1>Initial</h1>
-    </>
+    <Home />
   )
 }
 

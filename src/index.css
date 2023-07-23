@@ -1,0 +1,19 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+html {
+    font-size: 10px;
+}
+body {
+  height: 100vh;
+  background-color: bisque;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

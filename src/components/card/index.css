@@ -1,0 +1,8 @@
+.card {
+    width: 33.33%;
+    height: auto;
+    list-style: none;
+}
+.card__image {
+    width: 100%;
+}
