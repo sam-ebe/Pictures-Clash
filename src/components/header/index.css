@@ -1,33 +1,32 @@
 .header {
-    position: relative;
-    min-height: 200px;
+  position: relative;
+  min-height: 200px;
 }
 .header__image {
-    position: absolute;
-    height: 100px;
-    width: auto;
-    border-radius: 10px;
-    top: 0;
-    z-index: -1;
-    opacity: 80%;
+  position: absolute;
+  height: 100px;
+  width: auto;
+  border-radius: 10px;
+  top: 0;
+  opacity: 80%;
 }
 
-.header__image:nth-child(1){
-    left: 10%;
-    top: 20px;
+.header__image:nth-child(1) {
+  left: 10%;
+  top: 20px;
 }
 
-.header__image:nth-child(2){
-    right: 30%;
-    top: 60px;
+.header__image:nth-child(2) {
+  right: 30%;
+  top: 60px;
 }
 
-.header__image:nth-child(3){
-    left: 30%;
-    top: 100px;
+.header__image:nth-child(3) {
+  left: 30%;
+  top: 100px;
 }
 
-.header__image:nth-child(4){
-    right: 10%;
-    top: 60px;
+.header__image:nth-child(4) {
+  right: 10%;
+  top: 60px;
 }
