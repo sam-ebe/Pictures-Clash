@@ -1,7 +1,7 @@
-import React from 'react';
-import './index.css';
-import { exampleImages } from '../../data/data';
-import GameHistory from '../GameHistory/GameHistory';
+import React from "react";
+import "./index.css";
+import { exampleImages } from "../../data/data";
+import GameHistory from "../GameHistory/GameHistory";
 function Game({ started, handleStart }) {
   const handleClick = () => {
     handleStart(!started);
