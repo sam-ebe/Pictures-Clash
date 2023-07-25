@@ -1,13 +1,13 @@
-import { useState } from "react";
-import "./App.css";
-import Home from "./components/home/Home";
-import Game from "./components/game/Game";
+import { useState } from 'react';
+import './App.css';
+import Home from './components/home/Home';
+import Game from './components/game/Game';
 function App() {
-  const [started, setStarted] = useState(false);
+  const [started, setStarted] = useState(true);
 
-  const handleStart = (newStarted) => {
+  const handleStart = newStarted => {
     setStarted(newStarted);
-    console.log("from parent : " + started);
+    console.log('from parent : ' + started);
   };
   return (
     <>
