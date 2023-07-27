@@ -14,7 +14,7 @@ function App() {
       {!started ? (
         <Home started={started} handleStart={handleStart} />
       ) : (
-        <Game started={started} handleStart={handleStart} />
+        <Game started={started} handleStart={handleStart} totalImages={8} />
       )}
     </>
   );
